@@ -1,10 +1,8 @@
 {
-  "category": "MYTHOLOGICAL_CREATURE",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/cerberus",
     "maintainers": [
       {
@@ -18,422 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "cerberus",
     "name": "Cerberus",
-    "aliases": [
-      {
-        "name": "Kerberos",
-        "language": "Greek",
-        "region": "Ancient Greece"
-      },
-      {
-        "name": "Hound of Hades",
-        "language": "English",
-        "meaning": "Descriptive title"
-      },
-      {
-        "name": "Three-Headed Dog",
-        "language": "English",
-        "meaning": "Descriptive title"
-      }
-    ],
+    "aliases": [],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Guardian Beast",
+    "subcategory": "in fantasy",
     "tags": [
-      "greek-mythology",
-      "multi-headed",
-      "underworld",
-      "guardian",
-      "dog",
-      "hercules"
+      "folklore",
+      "mythology"
     ],
-    "status": "mythological",
+    "status": "documented",
     "description": {
-      "summary": "The three-headed dog guarding the gates of the underworld in Greek mythology. Offspring of Typhon and Echidna, Cerberus prevents the dead from leaving Hades rather than entering.",
-      "full": "Cerberus is the monstrous multi-headed dog that guards the gates of the Greek underworld. Typically depicted with three heads (though some early versions describe 50 or even 100 heads), Cerberus has a serpent for a tail and a mane of writhing snakes. As the offspring of the giants Typhon and Echidna, Cerberus is sibling to other famous monsters including the Hydra and Chimera. His primary role is to prevent the dead from escaping the underworld, not to prevent entry. Cerberus features in several Greek myths, most famously when captured by Hercules as his twelfth and final labor, and when charmed to sleep by Orpheus' music. The creature symbolizes the threshold between life and death, representing an insurmountable obstacle and the finality of death."
+      "summary": "Cerberus is the monstrous **multi-headed dog** that guards the gates of the Greek underworld.",
+      "full": "Cerberus is the monstrous **multi-headed dog** that guards the gates of the Greek underworld. Typically depicted with **three heads** (though some early versions describe 50 or even 100 heads), Cerberus has a **serpent for a tail** and a **mane of writhing snakes**. As the offspring of the giants Typhon and Echidna, Cerberus is sibling to other famous monsters including the Hydra and Chimera. His primary role is to **prevent the dead from escaping the underworld**, not to prevent entry—the ancient Greeks believed the dead entered Hades freely but could never leave. Cerberus features in several Greek myths, most famously when **captured by Hercules** as his twelfth and final labor, and when **charmed to sleep by Orpheus' music**. The creature symbolizes the threshold between life and death, representing an insurmountable obstacle and the finality of death."
     },
     "etymology": {
-      "origin": "From Greek 'Kerberos' (Κέρβερος), etymology debated. Possibly from 'kēr' (death demon) + 'erebos' (darkness), or possibly means 'spotted' - a traditional dog name.",
-      "meaning": "Possibly 'spot' or 'death of darkness' (disputed)",
-      "first_use": "Ancient Greek, Homeric period"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Guardian Beast",
-      "subtype": "Multi-headed Hound",
-      "variant": "Greek Underworld"
+      "type": "in fantasy",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "hydra",
-        "name": "Hydra",
-        "relationship": "sibling",
-        "description": "Multi-headed serpent, also offspring of Typhon and Echidna"
-      },
-      {
-        "id": "chimera",
-        "name": "Chimera",
-        "relationship": "sibling",
-        "description": "Hybrid monster, also offspring of Typhon and Echidna"
-      },
-      {
-        "id": "black-shuck",
-        "name": "Black Shuck",
-        "relationship": "related",
-        "description": "English folklore hellhound"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "heads": {
-        "standard": "3 heads",
-        "variations": "50-100 heads in early versions (Hesiod)"
-      },
-      "size": {
-        "description": "Enormous, larger than any mortal dog",
-        "confidence": "medium"
-      },
-      "coloration": [
-        "black",
-        "dark"
-      ],
-      "features": [
-        {
-          "feature": "Three heads",
-          "description": "Three dog heads (most common depiction)",
-          "frequency": "always"
-        },
-        {
-          "feature": "Serpent tail",
-          "description": "Tail that is a living serpent or dragon",
-          "frequency": "always"
-        },
-        {
-          "feature": "Snake mane",
-          "description": "Mane composed of writhing snakes along neck and back",
-          "frequency": "common"
-        },
-        {
-          "feature": "Dog body",
-          "description": "Body of a massive hound",
-          "frequency": "always"
-        },
-        {
-          "feature": "Bronze voice",
-          "description": "Terrifying bark described as bronze or metallic",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Massive three-headed dog with serpentine features"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Guardian",
-        "description": "Prevents the dead from leaving the underworld",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Terrorizing presence",
-        "description": "Frightens even the dead with appearance and bark",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Multiple vigilance",
-        "description": "Three heads allow constant watchfulness",
-        "frequency": "always",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Serpent attacks",
-        "description": "Snakes on mane and tail can strike independently",
-        "frequency": "common",
-        "evidence_level": "mythological"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "disposition": "guardian",
-      "role": "Prevents dead from escaping Hades (not from entering)",
-      "habitat_preference": [
-        "Gates of Hades",
-        "Underworld entrance",
-        "River Styx crossing"
-      ],
-      "patterns": [
-        "Allows dead to enter freely",
-        "Prevents escape from underworld",
-        "Fierce to living who enter",
-        "Can be charmed by music",
-        "Susceptible to drugged food"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Greek mythology, specifically the entrance to the underworld (Hades)",
-      "location": "Mythological - gates of the underworld"
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "specific_location": {
-      "name": "Gates of Hades",
-      "description": "Entrance to the Greek underworld, near the River Styx"
-    },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "8th century BCE",
+        "date": "Unknown",
         "circa": true,
-        "source": "Homer and Hesiod"
-      },
-      "mythological_period": "Eternal guardian since creation of underworld"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Greek mythology, guardian of the afterlife",
-      "earliest_accounts": "Homer's Iliad and Odyssey, Hesiod's Theogony",
-      "folklore_connections": "Part of Greek underworld mythology, connected to Typhon and Echidna's monstrous offspring"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "mythology": {
-      "parentage": {
-        "mother": "Echidna",
-        "father": "Typhon",
-        "siblings": ["Hydra", "Chimera", "Orthrus", "Sphinx"]
-      },
-      "role": "Guardian of Hades, prevents dead from leaving the underworld",
-      "master": "Hades, god of the underworld"
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    "timeline": [
-      {
-        "date": "8th century BCE",
-        "event": "Homer and Hesiod describe Cerberus",
-        "significance": "Early written accounts establish Cerberus in Greek mythology",
-        "source": "Iliad, Odyssey, Theogony"
-      },
-      {
-        "date": "Mythological age",
-        "event": "Hercules' twelfth labor",
-        "significance": "Hercules captures Cerberus and brings him to the surface",
-        "source": "Greek mythology"
-      },
-      {
-        "date": "Mythological age",
-        "event": "Orpheus charms Cerberus",
-        "significance": "Orpheus puts Cerberus to sleep with music to enter underworld",
-        "source": "Orpheus myth"
-      },
-      {
-        "date": "Classical period",
-        "event": "Widespread artistic depictions",
-        "significance": "Featured on pottery, sculpture, and in literature",
-        "source": "Archaeological evidence"
-      },
-      {
-        "date": "14th century CE",
-        "event": "Dante's Inferno",
-        "significance": "Cerberus appears as guardian of third circle of Hell",
-        "source": "Divine Comedy"
-      }
-    ],
-    "modern_era": "Cerberus remains one of the most recognizable figures from Greek mythology. The term 'Cerberus' is used metaphorically for any fierce guardian or insurmountable obstacle. The creature appears throughout literature, from Dante to Harry Potter, and in countless games, films, and works of art."
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
-  "famous_myths": {
-    "hercules_labor": {
-      "title": "The Twelfth Labor of Hercules",
-      "summary": "As his twelfth and final labor, Hercules was commanded to capture Cerberus and bring him to King Eurystheus. Hercules descended to the underworld and asked Hades for permission. Hades agreed if Hercules could subdue Cerberus without weapons. Hercules wrestled the beast with his bare hands until Cerberus submitted. He brought Cerberus to the surface, terrifying Eurystheus, then returned him to the underworld.",
-      "method": "Bare-handed wrestling, brute strength",
-      "outcome": "Successful capture and return"
-    },
-    "orpheus_myth": {
-      "title": "Orpheus and Eurydice",
-      "summary": "When Orpheus descended to the underworld to retrieve his dead wife Eurydice, he charmed Cerberus to sleep with his lyre music. The beautiful music allowed Orpheus to pass the guardian without conflict.",
-      "method": "Music from Orpheus' lyre",
-      "outcome": "Peaceful passage past Cerberus"
-    },
-    "aeneas_sibyl": {
-      "title": "Aeneas and the Sibyl",
-      "summary": "In Virgil's Aeneid, the Sibyl helps Aeneas enter the underworld by drugging Cerberus with honey cakes laced with soporifics, allowing peaceful passage.",
-      "method": "Drugged honey cakes",
-      "outcome": "Cerberus sleeps, allowing passage"
-    }
-  },
-
-  "defeat_methods": {
-    "successful_methods": [
-      {
-        "method": "Music",
-        "description": "Orpheus' lyre charmed Cerberus to sleep",
-        "used_by": "Orpheus"
-      },
-      {
-        "method": "Brute force",
-        "description": "Hercules wrestled Cerberus into submission",
-        "used_by": "Hercules"
-      },
-      {
-        "method": "Drugged food",
-        "description": "Honey cakes with soporifics put Cerberus to sleep",
-        "used_by": "The Sibyl (for Aeneas)"
-      }
-    ]
-  },
-
-  "symbolism": {
-    "primary_meanings": [
-      "Guardian of boundaries",
-      "Threshold between life and death",
-      "Insurmountable obstacle",
-      "Finality of death",
-      "Vigilance"
-    ],
-    "modern_usage": [
-      "\"Cerberus\" as metaphor for fierce guardian",
-      "Security company names",
-      "\"Past Cerberus\" - overcoming major obstacle",
-      "Literary device for boundary guardians"
-    ]
-  },
-
   "evidence": {
     "physical": [],
-    "historical": [
-      {
-        "type": "literary",
-        "description": "Ancient Greek texts by Homer, Hesiod, Virgil, and others",
-        "status": "documented",
-        "period": "8th century BCE onwards"
-      },
-      {
-        "type": "artistic",
-        "description": "Depictions on Greek and Roman pottery, sculpture, and mosaics",
-        "status": "documented",
-        "period": "Archaic period onwards"
-      }
-    ]
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "mythological": [
-      {
-        "name": "Guardian archetype",
-        "description": "Represents universal concept of death's finality and threshold guardians",
-        "evidence_cited": ["Cross-cultural guardian myths", "Underworld boundary symbolism"]
-      },
-      {
-        "name": "Monstrous offspring",
-        "description": "One of many monstrous children of Typhon and Echidna",
-        "evidence_cited": ["Hesiod's Theogony", "Greek mythological genealogies"]
-      }
-    ],
-    "symbolic": [
-      {
-        "name": "Three-fold death",
-        "description": "Three heads may represent past, present, future or birth, life, death",
-        "interpretation": "Symbolic representation of death's totality"
-      }
-    ],
-    "historical_basis": [
-      {
-        "name": "No cryptozoological claims",
-        "description": "Purely mythological - no historical sighting reports",
-        "evidence_cited": ["Absence of sighting accounts", "Clearly mythological context"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Greek mythological cycle",
-        "Underworld mythology",
-        "Guardian beast traditions"
-      ],
-      "beliefs": "Guardian of the afterlife in Greek belief system"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Dante's Divine Comedy (Inferno)",
-        "Greek mythology collections",
-        "Harry Potter series (Fluffy)",
-        "Percy Jackson series"
-      ],
-      "film_tv": [
-        "Hercules (Disney, 1997)",
-        "Harry Potter and the Philosopher's Stone",
-        "Percy Jackson films",
-        "Clash of the Titans"
-      ],
-      "games": [
-        "God of War series",
-        "Hades (video game)",
-        "Dungeons & Dragons",
-        "Final Fantasy series",
-        "Age of Mythology"
-      ],
-      "other": [
-        "Security company branding",
-        "Symbol of fierce guardianship",
-        "Hellhound archetype in fantasy"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "scholars": [
-      {
-        "name": "Ancient mythographers",
-        "contribution": "Preserved and transmitted Cerberus myths",
-        "period": "Classical antiquity"
-      }
-    ],
-    "classification": "Mythological creature - archetypal guardian of underworld"
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "homer-iliad",
-      "type": "ancient_text",
-      "title": "The Iliad",
-      "authors": ["Homer"],
-      "date": "~8th century BCE"
-    },
-    {
-      "id": "hesiod-theogony",
-      "type": "ancient_text",
-      "title": "Theogony",
-      "authors": ["Hesiod"],
-      "date": "~8th century BCE"
-    },
-    {
-      "id": "virgil-aeneid",
-      "type": "ancient_text",
-      "title": "Aeneid",
-      "authors": ["Virgil"],
-      "date": "29-19 BCE"
-    },
-    {
-      "id": "dante-inferno",
-      "type": "medieval_text",
-      "title": "Inferno",
-      "authors": ["Dante Alighieri"],
-      "date": "~1320"
-    },
-    {
-      "id": "hard-2004",
-      "type": "book",
-      "title": "The Routledge Handbook of Greek Mythology",
-      "authors": ["Robin Hard"],
-      "publication": "Routledge",
-      "date": "2004"
-    }
-  ]
+  "sources": []
 }
