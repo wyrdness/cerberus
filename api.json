@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/cerberus",
     "maintainers": [
       {
@@ -16,72 +16,132 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "cerberus",
     "name": "Cerberus",
-    "aliases": [],
+    "aliases": [
+      { "name": "Kérberos", "language": "Ancient Greek", "meaning": "the original Greek form" },
+      { "name": "Hellhound (general descriptor)", "region": "later European usage" }
+    ],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "in fantasy",
+    "subcategory": "Underworld guardian / multi-headed hound",
     "tags": [
-      "folklore",
-      "mythology"
+      "greek-mythology",
+      "underworld",
+      "multi-headed",
+      "guardian",
+      "hellhound",
+      "heracles",
+      "hades"
     ],
     "status": "documented",
     "description": {
-      "summary": "Cerberus is the monstrous **multi-headed dog** that guards the gates of the Greek underworld.",
-      "full": "Cerberus is the monstrous **multi-headed dog** that guards the gates of the Greek underworld. Typically depicted with **three heads** (though some early versions describe 50 or even 100 heads), Cerberus has a **serpent for a tail** and a **mane of writhing snakes**. As the offspring of the giants Typhon and Echidna, Cerberus is sibling to other famous monsters including the Hydra and Chimera. His primary role is to **prevent the dead from escaping the underworld**, not to prevent entry—the ancient Greeks believed the dead entered Hades freely but could never leave. Cerberus features in several Greek myths, most famously when **captured by Hercules** as his twelfth and final labor, and when **charmed to sleep by Orpheus' music**. The creature symbolizes the threshold between life and death, representing an insurmountable obstacle and the finality of death."
+      "summary": "The multi-headed hound of Greek mythology that guards the gates of Hades, preventing the dead from leaving. Most famously captured by Heracles as his twelfth and final labour.",
+      "full": "Cerberus (Greek: Kérberos) is the monstrous hound that guards the gates of Hades in Greek and Roman mythology. He is the offspring of the giants Typhon and Echidna, and the brother of the Lernaean Hydra, the Chimera, and the two-headed dog Orthrus. Ancient sources differ on his appearance: Hesiod's Theogony assigns him fifty heads and a 'voice of bronze', and Pindar one hundred heads, while the dominant tradition from the late Archaic period onward gives him three heads, often with a serpent for a tail and snakes growing from his body. His role is to keep the dead within the underworld; the Greeks believed the dead could enter Hades freely but could not leave, and Cerberus enforces that one-way passage. The most famous story involving him is Heracles' Twelfth Labour, in which the hero descends into Hades, wrestles Cerberus into submission with his bare hands (using only his lion-skin as armour) and brings him up to King Eurystheus before returning him. Cerberus also appears in the catabases of Orpheus (charmed asleep by music) and Aeneas (in Virgil's Aeneid VI, drugged with a honey-and-herb cake by the Sibyl). He is a prolific subject of Greek vase-painting and Roman sculpture and survives in modern usage in the names of the Kerberos network authentication protocol and a genus of fanged snakes."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Ancient Greek Kérberos (Κέρβερος); a long-standing but disputed Indo-European derivation links it to a root meaning 'spotted'.",
+      "meaning": "Possibly 'spotted' (cf. Sanskrit śárvara-); the etymology remains debated.",
+      "first_use": "Earliest substantial Greek attestations are Hesiodic (c. 700 BCE)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "in fantasy",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Multi-headed hound",
+      "subtype": "Underworld guardian",
+      "variant": "Greek classical"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "orthrus", "name": "Orthrus", "relationship": "related", "description": "Cerberus's two-headed brother, dog of Geryon, also offspring of Typhon and Echidna" },
+      { "id": "hydra", "name": "Lernaean Hydra", "relationship": "related", "description": "Cerberus's serpentine sister" },
+      { "id": "chimera", "name": "Chimera", "relationship": "related", "description": "Cerberus's hybrid sister" },
+      { "id": "garmr", "name": "Garmr", "relationship": "counterpart", "description": "Norse hound of Hel; comparable underworld hound" },
+      { "id": "hellhound", "name": "Hellhound (general)", "relationship": "superset", "description": "Generic 'hound of hell' figure in later European folklore" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["black (most common in art and literature)", "spotted (consistent with one proposed etymology)"],
+      "features": [
+        { "feature": "Multiple heads", "description": "Three in the dominant tradition; fifty in Hesiod; one hundred in Pindar", "frequency": "always" },
+        { "feature": "Serpent tail", "description": "A serpent or dragon-tail in place of a normal canine tail", "frequency": "common" },
+        { "feature": "Snakes growing from body", "description": "Hesiodic and later sources describe snakes sprouting from the back, mane, or shoulders", "frequency": "common" },
+        { "feature": "'Voice of bronze'", "description": "Hesiod gives Cerberus a 'voice of bronze' — a terrible, resonant bark", "frequency": "common" },
+        { "feature": "Powerful canine body", "description": "Build of an enormous mastiff-type dog", "frequency": "always" }
+      ],
+      "morphology": "Canid base body modified by polycephaly and serpentine elements; consistently chthonic in colouring."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Guarding the gates of Hades", "description": "Permits the dead to enter but prevents them from leaving", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Vulnerability to music and magic", "description": "Charmed asleep by Orpheus's lyre; sedated by the Sibyl's drugged cake in the Aeneid", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Petrifying gaze and bark", "description": "Hesiod and later authors emphasise his terrifying voice", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["the entrance to the Greek underworld (the gates of Hades)", "the banks of the Styx and Acheron"],
+      "diet": "Implied carnivore; in tradition food and drugged cakes are the standard means of pacifying him.",
+      "patterns": [
+        "Stationed at the gates of Hades",
+        "Allows the dead to enter but not to leave",
+        "Subdued only by exceptional heroes (Heracles) or by music/magic (Orpheus, Aeneas via the Sibyl)"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "In classical mythology Cerberus is located at the entrance to the Greek underworld; the entrance was traditionally placed at sites such as Cape Tainaron in Laconia and Lake Avernus in Campania.",
+      "continents": ["Europe (in mythological geography)"],
+      "countries": ["Greece", "Italy"],
+      "regions": ["Hades / the Greek underworld", "Cape Tainaron (Laconia)", "Lake Avernus (Campania)"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Cape Tainaron",
+        "location": {
+          "description": "Southern tip of the Mani peninsula; mythological entrance to Hades from which Heracles is said to have brought Cerberus up",
+          "country": "Greece",
+          "region": "Laconia, Peloponnese",
+          "coordinates": { "latitude": 36.3866, "longitude": 22.4830 }
+        },
+        "peak_period": "Mythic / classical",
+        "notes": "Traditional Greek entrance to the underworld."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "0700",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Hesiod, Theogony (c. 700 BCE)."
+      },
+      "peak_activity_periods": [
+        { "period": "8th c. BCE – 4th c. CE", "description": "Continuous classical literary and artistic tradition" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Archaic Greek mythology; an underworld guardian within the chthonic family of monsters descending from Typhon and Echidna.",
+      "earliest_accounts": "Hesiod's Theogony (c. 700 BCE) and Homeric references.",
+      "folklore_connections": "Comparable to Norse Garmr, Egyptian Anubis (as psychopomp), and the Hindu hounds of Yama (the Sarameyas)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "0700-01-01", "event": "Hesiod's Theogony names Cerberus as offspring of Typhon and Echidna with fifty heads and a voice of bronze", "significance": "First major literary attestation", "source": "Hesiod, Theogony (c. 700 BCE)" },
+      { "date": "-0470-01-01", "event": "Pindar describes Cerberus with one hundred heads (5th c. BCE)", "significance": "Pindar's number is the maximum recorded", "source": "Pindar (5th c. BCE fragments)" },
+      { "date": "-0019-01-01", "event": "Virgil's Aeneid VI depicts Aeneas's descent past Cerberus, who is sedated with a honey-and-herb cake by the Sibyl (c. 19 BCE)", "significance": "Canonical Latin literary version", "source": "Virgil, Aeneid VI" },
+      { "date": "0008-01-01", "event": "Ovid retells the Heracles–Cerberus story in Metamorphoses VII", "significance": "Standard Latin literary version of the Twelfth Labour", "source": "Ovid, Metamorphoses VII" },
+      { "date": "0150-01-01", "event": "Apollodorus's Bibliotheca (2nd c. CE) gives the standard prose narrative of Heracles wrestling Cerberus into submission", "significance": "Most-cited Greek prose summary", "source": "Apollodorus, Bibliotheca II.5.12" }
+    ],
+    "modern_era": "Cerberus remains a continuous presence in Western culture, featuring in Dante's Inferno, modern fantasy literature and games, and lending his name to the Kerberos network authentication protocol developed at MIT in 1988."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +152,99 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "cerberus-evidence-caeretan-hydria",
+        "type": "vase painting",
+        "name": "Caeretan hydria with Heracles and Cerberus (c. 530 BCE)",
+        "date": "-0530-01-01",
+        "description": "Late-6th-century BCE black-figure hydria from Caere depicting Heracles leading Cerberus before Eurystheus, an early canonical artistic record.",
+        "location": "Louvre, Paris",
+        "status": "verified",
+        "analysis": "One of the most-cited early visual records of the Twelfth Labour.",
+        "source": "Caeretan hydria (Louvre)"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Indo-European underworld-hound motif",
+        "description": "Comparative-mythology hypothesis that Cerberus belongs to a Proto-Indo-European inheritance of underworld-guarding hounds shared with the Norse Garmr and the Vedic hounds of Yama.",
+        "proponents": ["Bruce Lincoln", "Calvert Watkins"],
+        "evidence_cited": ["Cognate roles of Garmr and the Sarameyas", "Possible cognate name (Sanskrit śárvara-)"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Documented mythological figure",
+        "description": "Cerberus is recorded as a mythological and artistic figure of Greek and Roman tradition. There is no zoological or paranormal claim attached to him in mainstream scholarship.",
+        "proponents": ["Mainstream classical scholarship"],
+        "evidence_cited": ["Continuous textual and artistic tradition; absence of any cryptozoological claim"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": ["Greek and Roman mythological tradition"],
+      "stories": [
+        "Heracles' Twelfth Labour: capture of Cerberus",
+        "Orpheus charms Cerberus to sleep with his lyre",
+        "The Sibyl drugs Cerberus with a honey-and-herb cake (Virgil, Aeneid VI)"
+      ],
+      "beliefs": "In antiquity Cerberus was understood as a guardian of the threshold between life and death; he is not typically the object of cult but is invoked as an emblem of the inescapability of death."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Theogony — Hesiod (c. 700 BCE)",
+        "Aeneid — Virgil (19 BCE)",
+        "Metamorphoses — Ovid (8 CE)",
+        "Bibliotheca — Apollodorus (2nd c. CE)",
+        "Inferno — Dante Alighieri (c. 1320)",
+        "Harry Potter and the Philosopher's Stone — J. K. Rowling (1997, as 'Fluffy')"
+      ],
+      "film_tv": [
+        "Hercules (Disney, 1997)",
+        "Percy Jackson & the Olympians: The Lightning Thief (2010)"
+      ],
+      "games": [
+        "God of War series",
+        "Hades (Supergiant Games, 2020)",
+        "Dungeons & Dragons (recurring monster)"
+      ],
+      "music": [],
+      "other": [
+        "Kerberos network authentication protocol (MIT, 1988)",
+        "Cerberus snake genus (Cerberus, family Homalopsidae)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Walter Burkert", "affiliation": "University of Zürich (Classics)", "contribution": "Studies of Greek mythology and chthonic ritual", "period": "1960s–2010s" },
+      { "name": "Bruce Lincoln", "affiliation": "University of Chicago (history of religions)", "contribution": "Comparative Indo-European mythology including underworld-hound motifs", "period": "1970s–present" }
+    ],
+    "organizations": [
+      { "name": "Society for the Promotion of Hellenic Studies", "url": "https://www.hellenicsociety.org.uk", "focus": "Scholarly study of ancient Greek culture and mythology" }
+    ],
+    "ongoing_studies": "Cerberus appears regularly in Classical Studies and comparative-mythology scholarship; not the subject of cryptozoological investigation."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "hesiod-theogony", "type": "book", "title": "Theogony", "authors": ["Hesiod"], "publication": "Oral/written tradition (c. 700 BCE)", "date": "0700-01-01" },
+    { "id": "virgil-aeneid", "type": "book", "title": "Aeneid", "authors": ["Virgil"], "publication": "Rome", "date": "-0019-01-01" },
+    { "id": "apollodorus-bibliotheca", "type": "book", "title": "Bibliotheca", "authors": ["Pseudo-Apollodorus"], "publication": "Greek (2nd c. CE)", "date": "0150-01-01" },
+    { "id": "wikipedia-cerberus", "type": "website", "title": "Cerberus", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Cerberus", "accessed": "2026-05-07" }
+  ]
 }

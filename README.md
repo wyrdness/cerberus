@@ -1,353 +1,169 @@
 # Cerberus
 
-> *"The hound of Hades, with three heads to watch all who enter the land of the dead."*
+> The multi-headed hound of Greek mythology that guards the gates of Hades, preventing the dead from leaving. Most famously captured by Heracles as his twelfth and final labour.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-mythological-purple)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `cerberus` |
 | **Category** | MYTHOLOGICAL_CREATURE |
-| **Classification** | Guardian Beast / Multi-headed Hound |
-| **First Recorded** | 8th century BCE (Homer, Hesiod) |
-| **Primary Region** | Greek Underworld (Hades) |
-| **Status** | Mythological |
+| **Subcategory** | Underworld guardian / multi-headed hound |
+| **First recorded** | 0700-01-01 |
+| **Primary range** | In classical mythology Cerberus is located at the entrance to the Greek underworld |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-Cerberus is the monstrous **multi-headed dog** that guards the gates of the Greek underworld. Typically depicted with **three heads** (though some early versions describe 50 or even 100 heads), Cerberus has a **serpent for a tail** and a **mane of writhing snakes**.
-
-As the offspring of the giants Typhon and Echidna, Cerberus is sibling to other famous monsters including the Hydra and Chimera. His primary role is to **prevent the dead from escaping the underworld**, not to prevent entry—the ancient Greeks believed the dead entered Hades freely but could never leave.
-
-Cerberus features in several Greek myths, most famously when **captured by Hercules** as his twelfth and final labor, and when **charmed to sleep by Orpheus' music**. The creature symbolizes the threshold between life and death, representing an insurmountable obstacle and the finality of death.
+Cerberus (Greek: Kérberos) is the monstrous hound that guards the gates of Hades in Greek and Roman mythology. He is the offspring of the giants Typhon and Echidna, and the brother of the Lernaean Hydra, the Chimera, and the two-headed dog Orthrus. Ancient sources differ on his appearance: Hesiod's Theogony assigns him fifty heads and a 'voice of bronze', and Pindar one hundred heads, while the dominant tradition from the late Archaic period onward gives him three heads, often with a serpent for a tail and snakes growing from his body. His role is to keep the dead within the underworld; the Greeks believed the dead could enter Hades freely but could not leave, and Cerberus enforces that one-way passage. The most famous story involving him is Heracles' Twelfth Labour, in which the hero descends into Hades, wrestles Cerberus into submission with his bare hands (using only his lion-skin as armour) and brings him up to King Eurystheus before returning him. Cerberus also appears in the catabases of Orpheus (charmed asleep by music) and Aeneas (in Virgil's Aeneid VI, drugged with a honey-and-herb cake by the Sibyl). He is a prolific subject of Greek vase-painting and Roman sculpture and survives in modern usage in the names of the Kerberos network authentication protocol and a genus of fanged snakes.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Kérberos | Ancient Greek | the original Greek form |
+| Hellhound (general descriptor) | later European usage |  |
 
-### Primary Name
-- **Cerberus** — From Greek 'Kerberos' (Κέρβερος). Etymology debated. Possibly from 'kēr' (death demon) + 'erebos' (darkness), or possibly means "spotted"—a traditional dog name.
+## Etymology
 
-### Alternative Names
-
-| Name | Language/Region | Meaning |
-|------|-----------------|---------|
-| Kerberos | Greek | Original Greek form |
-| Hound of Hades | English | Descriptive title |
-| Three-Headed Dog | English | Descriptive title |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: MYTHOLOGICAL_CREATURE
-├── Type: Guardian Beast
-├── Subtype: Multi-headed Hound
-└── Variant: Greek Underworld
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Hydra](/hydra) | Sibling | Multi-headed serpent, also offspring of Typhon and Echidna |
-| [Chimera](/chimera) | Sibling | Hybrid monster, also offspring of Typhon and Echidna |
-| [Black Shuck](/black-shuck) | Related | English folklore hellhound |
+- **Origin**: Ancient Greek Kérberos (Κέρβερος); a long-standing but disputed Indo-European derivation links it to a root meaning 'spotted'.
+- **Meaning**: Possibly 'spotted' (cf. Sanskrit śárvara-); the etymology remains debated.
+- **First use**: Earliest substantial Greek attestations are Hesiodic (c. 700 BCE).
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Orthrus](../orthrus/) — _related_: Cerberus's two-headed brother, dog of Geryon, also offspring of Typhon and Echidna
+- [Lernaean Hydra](../hydra/) — _related_: Cerberus's serpentine sister
+- [Chimera](../chimera/) — _related_: Cerberus's hybrid sister
+- [Garmr](../garmr/) — _counterpart_: Norse hound of Hel; comparable underworld hound
+- [Hellhound (general)](../hellhound/) — _superset_: Generic 'hound of hell' figure in later European folklore
 
-### Physical Description
+---
+## Physical Description
 
-| Attribute | Description |
-|-----------|-------------|
-| **Heads** | 3 heads (most common), 50-100 in early versions |
-| **Size** | Enormous, larger than any mortal dog |
-| **Coloration** | Black, dark |
-| **Build** | Massive hound with serpentine features |
+- **Coloration**: black (most common in art and literature), spotted (consistent with one proposed etymology)
+- **Morphology**: Canid base body modified by polycephaly and serpentine elements; consistently chthonic in colouring.
 
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Three heads | Three dog heads (most common depiction) | Always |
-| Serpent tail | Tail that is a living serpent or dragon | Always |
-| Snake mane | Mane composed of writhing snakes along neck and back | Common |
-| Dog body | Body of a massive hound | Always |
-| Bronze voice | Terrifying bark described as bronze or metallic | Common |
+|---|---|---|
+| Multiple heads | Three in the dominant tradition; fifty in Hesiod; one hundred in Pindar | always |
+| Serpent tail | A serpent or dragon-tail in place of a normal canine tail | common |
+| Snakes growing from body | Hesiodic and later sources describe snakes sprouting from the back, mane, or shoulders | common |
+| 'Voice of bronze' | Hesiod gives Cerberus a 'voice of bronze' — a terrible, resonant bark | common |
+| Powerful canine body | Build of an enormous mastiff-type dog | always |
 
-### Role & Abilities
+## Reported Abilities
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Guardian | Prevents the dead from leaving the underworld | Mythological |
-| Terrorizing presence | Frightens even the dead with appearance and bark | Mythological |
-| Multiple vigilance | Three heads allow constant watchfulness | Mythological |
-| Serpent attacks | Snakes on mane and tail can strike independently | Mythological |
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Guarding the gates of Hades | Permits the dead to enter but prevents them from leaving | always | folklore |
+| Vulnerability to music and magic | Charmed asleep by Orpheus's lyre; sedated by the Sibyl's drugged cake in the Aeneid | occasional | folklore |
+| Petrifying gaze and bark | Hesiod and later authors emphasise his terrifying voice | common | folklore |
 
----
+## Behavior
 
-## Mythology
-
-### Parentage
-
-- **Father:** Typhon (monstrous giant)
-- **Mother:** Echidna (half-woman, half-serpent)
-- **Siblings:** Hydra, Chimera, Orthrus, Sphinx, and other Greek monsters
-- **Master:** Hades, god of the underworld
-
-### Role: Guardian of the Underworld
-
-**Primary Function:** Cerberus **prevents the dead from escaping Hades**, not from entering.
-
-- **Allows dead to enter freely** — The dead pass by Cerberus without issue
-- **Prevents escape** — No soul can leave the underworld
-- **Fierce to living intruders** — Attacks living mortals who dare enter Hades
-
-**Location:** Guards the gates of Hades near the River Styx
+- **Activity**: variable
+- **Disposition**: aggressive
+- **Social structure**: solitary
+- **Habitat**: the entrance to the Greek underworld (the gates of Hades), the banks of the Styx and Acheron
+- **Diet**: Implied carnivore; in tradition food and drugged cakes are the standard means of pacifying him.
 
 ---
+## Distribution
 
-## Famous Myths
+In classical mythology Cerberus is located at the entrance to the Greek underworld; the entrance was traditionally placed at sites such as Cape Tainaron in Laconia and Lake Avernus in Campania.
 
-### 1. The Twelfth Labor of Hercules ⭐
+### Hotspots
 
-**The Final Labor:**
-
-As his **twelfth and final labor**, Hercules was commanded to capture Cerberus and bring him to King Eurystheus.
-
-**The Challenge:**
-- Hercules descended to the underworld
-- Asked **Hades** for permission to take Cerberus
-- Hades agreed **IF** Hercules could subdue the beast **without weapons**
-
-**The Method:**
-- Hercules **wrestled Cerberus** with his bare hands
-- Used brute strength to subdue the multi-headed hound
-- Cerberus eventually submitted
-
-**The Outcome:**
-- Hercules brought Cerberus to the surface
-- Eurystheus was **terrified** at the sight
-- Hercules returned Cerberus to the underworld
-- Labor completed successfully
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Cape Tainaron | Laconia, Peloponnese, Greece |  | Mythic / classical |
 
 ---
-
-### 2. Orpheus and Eurydice
-
-**The Power of Music:**
-
-When Orpheus descended to the underworld to retrieve his dead wife Eurydice, he encountered Cerberus at the gates.
-
-**The Method:**
-- Orpheus played his **lyre** with beautiful music
-- The music **charmed Cerberus to sleep**
-- Allowed peaceful passage without conflict
-
-**Lesson:** Beauty and art can overcome even the most fearsome guardians.
-
----
-
-### 3. Aeneas and the Sibyl
-
-**The Drugged Honey Cakes:**
-
-In Virgil's *Aeneid*, the hero Aeneas needed to enter the underworld.
-
-**The Method:**
-- The **Sibyl** (prophetess) helped Aeneas
-- She prepared **honey cakes laced with soporifics** (sleeping drugs)
-- Cerberus ate the cakes and fell asleep
-- Allowed safe passage
-
-**Lesson:** Intelligence and preparation can achieve what force cannot.
-
----
-
-## How to Defeat Cerberus
-
-### Successful Methods
-
-| Method | Description | Used By |
-|--------|-------------|---------|
-| **Music** | Orpheus' lyre charmed Cerberus to sleep | Orpheus |
-| **Brute Force** | Wrestling Cerberus into submission | Hercules |
-| **Drugged Food** | Honey cakes with soporifics | The Sibyl (for Aeneas) |
-
-**Note:** Only heroes with divine favor or exceptional abilities could overcome Cerberus.
-
----
-
-## Symbolism
-
-### Primary Meanings
-
-1. **Guardian of boundaries** — Threshold between life and death
-2. **Finality of death** — No escape from the underworld
-3. **Insurmountable obstacle** — Nearly impossible to overcome
-4. **Vigilance** — Constant watchfulness (three heads)
-5. **Death's threshold** — Point of no return
-
-### Modern Usage
-
-- **"Cerberus"** as metaphor for fierce guardian
-- **Security company names** — Representing protection and vigilance
-- **"Past Cerberus"** — Overcoming a major obstacle
-- **Literary device** — Boundary guardians in fantasy
-
----
-
 ## Historical Timeline
 
 | Date | Event | Significance |
-|------|-------|--------------|
-| 8th century BCE | Homer and Hesiod describe Cerberus | Early written accounts establish Cerberus in Greek mythology |
-| Mythological age | Hercules' twelfth labor | Hercules captures Cerberus |
-| Mythological age | Orpheus charms Cerberus | Orpheus puts Cerberus to sleep with music |
-| Classical period | Widespread artistic depictions | Featured on pottery, sculpture, and in literature |
-| 14th century CE | Dante's *Inferno* | Cerberus appears as guardian of third circle of Hell |
-| Modern era | Pop culture icon | Appears in films, games, and literature worldwide |
-
----
-
-## Dante's Inferno
-
-In Dante Alighieri's *Divine Comedy* (14th century), Cerberus appears as the **guardian of the third circle of Hell**, where the gluttonous are punished.
-
-**Dante's Description:**
-- Three-headed beast
-- Guards those who sinned through gluttony
-- Represents insatiable appetite
-- Can be calmed by throwing dirt/earth into his mouths
-
----
+|---|---|---|
+| 0700-01-01 | Hesiod's Theogony names Cerberus as offspring of Typhon and Echidna with fifty heads and a voice of bronze | First major literary attestation |
+| -0470-01-01 | Pindar describes Cerberus with one hundred heads (5th c. BCE) | Pindar's number is the maximum recorded |
+| -0019-01-01 | Virgil's Aeneid VI depicts Aeneas's descent past Cerberus, who is sedated with a honey-and-herb cake by the Sibyl (c. 19 BCE) | Canonical Latin literary version |
+| 0008-01-01 | Ovid retells the Heracles–Cerberus story in Metamorphoses VII | Standard Latin literary version of the Twelfth Labour |
+| 0150-01-01 | Apollodorus's Bibliotheca (2nd c. CE) gives the standard prose narrative of Heracles wrestling Cerberus into submission | Most-cited Greek prose summary |
 
 ## Evidence
 
-### Historical Sources
+### Documentary
 
-| Type | Description | Period |
-|------|-------------|--------|
-| Literary | Ancient Greek texts by Homer, Hesiod, Virgil | 8th century BCE onwards |
-| Artistic | Depictions on Greek and Roman pottery, sculpture, mosaics | Archaic period onwards |
-
-**Note:** Cerberus is purely mythological with no cryptozoological claims or sighting reports.
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Caeretan hydria with Heracles and Cerberus (c. 530 BCE) | -0530-01-01 | Late-6th-century BCE black-figure hydria from Caere depicting Heracles leading Cerberus before Eurystheus, an early canonical artistic record. | verified |
 
 ---
-
 ## Theories & Explanations
 
-### Mythological Interpretation
+### Scientific
 
-**Guardian Archetype**
-Cerberus represents the universal concept of death's finality and threshold guardians found in many cultures.
+**Indo-European underworld-hound motif** _(Bruce Lincoln, Calvert Watkins)_
 
-**Monstrous Offspring**
-Part of the lineage of Typhon and Echidna, representing primordial chaos.
+Comparative-mythology hypothesis that Cerberus belongs to a Proto-Indo-European inheritance of underworld-guarding hounds shared with the Norse Garmr and the Vedic hounds of Yama.
 
-### Symbolic Interpretation
+### Skeptical
 
-**Three-Fold Death**
-The three heads may represent:
-- **Past, Present, Future**
-- **Birth, Life, Death**
-- **Complete vigilance** (watching all directions)
+**Documented mythological figure** _(Mainstream classical scholarship)_
 
----
+Cerberus is recorded as a mythological and artistic figure of Greek and Roman tradition. There is no zoological or paranormal claim attached to him in mainstream scholarship.
+
 
 ## Popular Culture
 
-### Literature
-- Dante's *Divine Comedy* (*Inferno*)
-- Greek mythology collections
-- *Harry Potter* series (Fluffy, the three-headed dog)
-- *Percy Jackson* series
+**Literature**: Theogony — Hesiod (c. 700 BCE); Aeneid — Virgil (19 BCE); Metamorphoses — Ovid (8 CE); Bibliotheca — Apollodorus (2nd c. CE); Inferno — Dante Alighieri (c. 1320); Harry Potter and the Philosopher's Stone — J. K. Rowling (1997, as 'Fluffy')
 
-### Film & TV
-- *Hercules* (Disney, 1997)
-- *Harry Potter and the Philosopher's Stone*
-- *Percy Jackson* films
-- *Clash of the Titans*
+**Film / TV**: Hercules (Disney, 1997); Percy Jackson & the Olympians: The Lightning Thief (2010)
 
-### Games
-- *God of War* series
-- *Hades* (video game)
-- *Dungeons & Dragons*
-- *Final Fantasy* series
-- *Age of Mythology*
+**Games**: God of War series; Hades (Supergiant Games, 2020); Dungeons & Dragons (recurring monster)
 
-### Other
-- Security company branding
-- Symbol of fierce guardianship
-- Hellhound archetype in fantasy
+**Other**: Kerberos network authentication protocol (MIT, 1988); Cerberus snake genus (Cerberus, family Homalopsidae)
 
 ---
+## Research
 
-## API Reference
+### Researchers
 
-Machine-readable data is available in [`api.json`](api.json).
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Walter Burkert | University of Zürich (Classics) | Studies of Greek mythology and chthonic ritual | 1960s–2010s |
+| Bruce Lincoln | University of Chicago (history of religions) | Comparative Indo-European mythology including underworld-hound motifs | 1970s–present |
 
-### Data Access
+### Organizations
 
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const cerberus = await wyrd.getPhenomenon('cerberus');
-```
+- [Society for the Promotion of Hellenic Studies](https://www.hellenicsociety.org.uk) — Scholarly study of ancient Greek culture and mythology
 
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/cerberus/main/api.json
-```
+Cerberus appears regularly in Classical Studies and comparative-mythology scholarship; not the subject of cryptozoological investigation.
 
 ---
+## Sources
 
-## Sources & References
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-See [SOURCES.md](SOURCES.md) for complete bibliography.
 
-### Primary Sources
+## How to Report a Sighting
 
-- Homer. *The Iliad* (~8th century BCE)
-- Hesiod. *Theogony* (~8th century BCE)
-- Virgil. *Aeneid* (29-19 BCE)
-- Dante Alighieri. *Inferno* (~1320)
-- Hard, Robin (2004). *The Routledge Handbook of Greek Mythology*. Routledge.
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Report Historical Source](../../issues/new?template=source_addition.yml) • [Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
